@@ -1,0 +1,26 @@
+<div id="<%= dom_id user %>">
+    <p>
+        <strong>Name:</strong>
+        <%= user.name %>
+    </p>
+
+    <p>
+        <strong> Email:</strong>
+        <%= user.Email %>
+    </p>
+
+    <p>
+        <strong>Avatar:</strong>
+        <%=image_tag user.avatar if user.avatar.attached? %>
+    </p>
+
+    <p>
+        <strong>Images:</strong>
+        <% if user.avatar.attached? %>
+            <% user.avatar.each do |img| %>
+                <%= image_tag img %>
+            <% end %>
+        <% end %>
+    </p>
+
+</div>

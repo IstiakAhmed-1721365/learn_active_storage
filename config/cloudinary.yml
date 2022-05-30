@@ -1,0 +1,11 @@
+development: 
+  cloud_name: "co-well"
+  api_key: "734994157874722"
+  api_secret: "ErnaZNSNNQznPVRsDYKTaEKK5eo"
+  secure: true
+
+production:
+  cloud_name: "co-well"
+  api_key: "734994157874722"
+  api_secret: "ErnaZNSNNQznPVRsDYKTaEKK5eo"
+  secure: true
